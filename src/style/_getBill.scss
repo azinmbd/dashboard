@@ -1,0 +1,88 @@
+// get bill page stylig
+.bill {
+  background-color: white;
+  padding: 6%;
+  position: relative;
+  width: 70%;
+  margin: 6% auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px #dcdcdc7d;
+  height: 62%;
+}
+
+.info-pop {
+  .text-left {
+    margin-bottom: 15px;
+    .info-name {
+      color: $black;
+      font-size: 16px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    .info-num {
+      color: #999999;
+      font-size: 15px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+}
+.Calendar {
+  position: absolute;
+  right: 59%;
+  bottom: 96%;
+}
+.date-range-title {
+  width: auto;
+  position: absolute;
+    right: 60%;
+    bottom: 92%;
+
+  color: #445ef8;
+}
+.water-bill {
+  background-color: white;
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  box-shadow: 0 2px 10px gainsboro;
+}
+.calendar-btn {
+  position: absolute;
+  bottom: 10%;
+  color: white !important;
+  width: 200px;
+  margin-top: 15px;
+  font-weight: 700;
+  background-color: #4862f8 !important;
+  &:hover {
+    transition: all 500ms;
+    background-color: #1734d6;
+    box-shadow: 0 2px 10px gainsboro;
+    color: white !important;
+  }
+}
+
+.deactive {
+  position: absolute;
+  bottom: 10%;
+  color: white !important;
+  width: 200px;
+  margin-top: 15px;
+  font-weight: 700;
+  background-color: gray !important;
+  cursor: default !important;
+  &:hover {
+    background-color: gray !important;
+    box-shadow: none;
+  }
+}
+
+//calendar style
+.custom-today-day::after {
+  // visibility: hidden; /* hide small border under the text */
+  background-color: $orange !important;
+  opacity: 1 !important;
+  width: 1em !important;
+  height: 2px !important;
+}

@@ -1,0 +1,78 @@
+
+
+
+.gas-template {
+  background-color: #fccc9e;
+  border-radius: 5px;
+  padding: 20px;
+  // padding: 20px 40px;
+  position: relative;
+  // span{
+  //   position: absolute;
+  //   left: -13%;
+  //   transform: rotate(-90deg);
+  //   top: 49%;
+  //   font-size: 12px;
+  // }
+  .col-12 {
+    background-color: white;
+    .table-bordered {
+      box-shadow: 0 0 0 1px #ffc0cb85;
+      margin: 0;
+      width: 100%;
+      color: $black;
+
+      th {
+        border: 1px solid #ffc0cb85;
+      }
+      td {
+        border: 1px solid #ffc0cb85;
+        color: black;
+      }
+      .bg-green {
+        background-color: #b1e491;
+      }
+      .bg-orange {
+        background-color: #fccc9e;
+      }
+      .bg-red {
+        background-color: #ff9c9c;
+      }
+      .h4 {
+        height: 54px;
+      }
+    }
+  }
+}
+.light-orange {
+  background-color: #fddacad6 !important;
+  width: 30%;
+}
+.height-edit {
+  th {
+    padding: 10px !important;
+  }
+  td {
+    padding: 10px !important;
+  }
+}
+.gassBillFooter {
+  background-color: #ffbc58;
+  width: 100%;
+  font-size: 16px;
+  position: relative;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px 10% 10px 0;
+  color: black;
+  img {
+    position: absolute;
+    z-index: 5;
+    width: 70px;
+    right: 4%;
+    bottom: -30%;
+  }
+}
+.pink-color {
+  color: #e91e63;
+}

@@ -1,0 +1,97 @@
+
+
+// water bill template styling
+.bill-template {
+  border-radius: 5px;
+  background-color: white;
+  margin: 25px;
+  box-shadow: 0 2px 26px #00000026;
+  padding: 15px;
+  height: auto;
+  font-size: 12px;
+  .water-border {
+    box-shadow: 0 0 0 1px rgb(194, 215, 255);
+    padding: 0 10px 10px 10px;
+    border-radius: 3px;
+    .bill-header {
+      div {
+        display: flex;
+        margin-top: 10px;
+        span {
+          color: #4675af;
+        }
+        .red {
+          color: rgb(228, 43, 83);
+        }
+        p {
+          color: $black;
+          margin: 0 10px 0 0;
+        }
+      }
+    }
+  }
+  table {
+    color: #4675af;
+    margin-top: 5px;
+    margin-bottom: 0;
+    width: 98%;
+    box-shadow: 0 0 0 1px rgb(194, 215, 255);
+    border-radius: 5px;
+    border: none;
+    position: static;
+    transform: none;
+    text-align: center;
+    height: auto;
+    th {
+      text-align: center;
+      padding: 3px;
+    }
+    td {
+      color: $black;
+      padding: 5px;
+    }
+  }
+  .house-type {
+    background-color: white;
+  }
+  .table thead th {
+    border: 1px solid rgb(194, 215, 255);
+  }
+}
+.emty-h {
+  height: 134% !important;
+}
+.blue-bg {
+  background-color: #d9ebfb;
+}
+.red-bg {
+  background-color: #fbd9e4;
+}
+
+.persian-num {
+  background-color: #fbd9e4;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 3px;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid #ce607c61;
+  span {
+    color: rgb(173, 14, 54);
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  p {
+    margin: 0;
+  }
+}
+.head-info {
+  .waterCompany {
+    font-size: 20px;
+  }
+  span {
+    color: #4675af;
+  }
+}

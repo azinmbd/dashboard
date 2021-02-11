@@ -1,0 +1,28 @@
+//search result
+.result-notfound {
+  span {
+    font-size: 30px;
+    font-weight: bold;
+    color: $black;
+  }
+}
+.alert-light {
+  background-color: #d7ff6829;
+  border: none;
+}
+.alert-orange {
+  background-color: #bdbdbd21;
+}
+//result item page
+.table {
+  width: 90%;
+  height: 70%;
+  background-color: white;
+  box-shadow: 0 2px 5px gainsboro;
+  border-radius: 3px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

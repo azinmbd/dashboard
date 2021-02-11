@@ -1,0 +1,28 @@
+$black: #404040;
+$orange: #faaa08;
+$green: #c4d82e;
+$light-gray: #f1f2f3;
+$dark-gray: #b3b3b3;
+
+@import 'font';
+@import 'home';
+@import 'report';
+@import 'notFound';
+@import 'serachResult';
+@import 'towerDetail';
+@import 'getBill';
+@import 'waterTemplate';
+@import 'gasTemplate';
+@import 'electricityTemplate';
+
+body {
+  font-family: IRANSans ;
+  background-color: $light-gray;
+  font-weight: 600;
+  a {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
